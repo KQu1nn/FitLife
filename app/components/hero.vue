@@ -5,8 +5,8 @@
             <span class="text-green-600 font-bold">performance e estilo</span>
         </p>
         <div class="flex flex-row gap-4 font-bold items-center">
-            <button class="text-lg text-white bg-green-600 px-9 py-2 rounded-xs">Ver Produtos</button>
-            <button class="text-lg text-black bg-white px-9 py-2 rounded-xs">Sobre nós</button>
+            <button class="cursor-pointer text-lg text-white bg-green-600 px-9 py-2 rounded-xs">Ver Produtos</button>
+            <button class="cursor-pointer text-lg text-black bg-white px-9 py-2 rounded-xs">Sobre nós</button>
         </div>
     </div>
     <div class="w-full flex justify-center">
