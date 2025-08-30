@@ -4,7 +4,7 @@
         <p class="text-xl text-gray-500">Acompanhe nosso dia a dia, novidades e inspirações fitness</p>
         <a href="https://instagram.com/#">
             <button
-                class="bg-green-500 font-bold text-lg text-white px-6 py-2.5 cursor-pointer rounded-sx flex flex-row gap-1.5 items-center">
+                class="bg-green-500 font-bold text-lg text-white px-6 py-2.5 cursor-pointer rounded-sx flex flex-row gap-1.5 items-center transform transition-transform duration-300 hover:scale-105">
                 <Icon name="lucide:instagram" size="20" class="text-white" />
                 @fitlife
             </button>

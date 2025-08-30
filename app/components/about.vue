@@ -27,7 +27,7 @@
                     <Icon name="lucide:circle-check-big" size="23" class="text-green-600" />
                     Sustentabilidade em primeiro lugar
                 </li>
-                <button class=" w-50 my-5 bg-green-600/90 text-white px-2 py-2 rounded-sx font-medium cursor-pointer">Entre em Contato</button>
+                <button class="w-50 my-5 bg-green-600/90 text-white px-2 py-2 rounded-sx font-medium cursor-pointer transform transition-transform duration-300 hover:scale-105"><a href="https://api.whatsapp.com/send?phone=5599999999999&text=Ol%C3%A1%2C%20vim%20pelo%20seu%20site!">Entre em Contato</a></button>
             </ul>
             
         </div>
