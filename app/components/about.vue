@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full min-h-screen flex flex-col md:flex-row px-8 gap-5 items-center justify-center">
+    <div class="w-full min-h-screen flex flex-col md:flex-row px-8 gap-5 items-center justify-center bg-[#fafcfd]">
         <div class="w-full md:w-3/6 flex flex-col gap-8 justify-center items-center md:items-start">
             <h1 class="text-5xl text-black font-bold">Sobre a <span class="text-green-500">FitLife</span></h1>
             <p class="md:text-start text-center text-xl text-gray-400">

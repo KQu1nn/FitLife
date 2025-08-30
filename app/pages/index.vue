@@ -19,6 +19,7 @@
     </div>
     <About />
     <Instagram />
+    <Address />
 </template>
 <script setup>
 import product1 from '@/assets/images/product1.jpg'

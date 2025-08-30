@@ -6,10 +6,10 @@
         </div>
         <div class="p-5 flex flex-col gap-2">
             <h2 class="text-[21px] font-bold">{{ product.name }}</h2>
-            <p class="text-[18px] text-gray-500">{{ product.description }}</p>
+            <p class="text-lg text-gray-500/95">{{ product.description }}</p>
             <div class="w-full flex flex-row justify-between">
                 <p class="text-2xl text-green-600 font-bold">R$ {{ product.price }}</p>
-                <button class="bg-green-600/90 text-white px-3 py-2 rounded-sx">Comprar</button>
+                <button class="bg-green-600/90 text-white px-3 py-2 rounded-sx cursor-pointer">Comprar</button>
             </div>
         </div>
     </div>
