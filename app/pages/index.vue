@@ -27,9 +27,13 @@
     </section>
 
     <Instagram />
+
     <section id="endereco">
         <Address />
     </section>
+
+    <Footer />
+    <Whatsapp />
 </template>
 <script setup>
 import product1 from '@/assets/images/product1.jpg'

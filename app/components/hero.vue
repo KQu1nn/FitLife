@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full py-35 text-white flex flex-col justify-center items-center gap-7">
+    <div class="w-full min-h-screen text-white flex flex-col justify-center items-center gap-7">
         <h1 class="text-7xl font-bold">FitLife</h1>
         <p class="w-3/6 text-2xl text-center">Eleve seu treino ao próximo nível com roupas fitness que combinam
             <span class="text-green-600 font-bold">performance e estilo</span>
@@ -12,7 +12,7 @@
         </div>
     </div>
     <div class="w-full flex justify-center">
-        <Icon @click="scrollTo('produtos')" name="lucide:arrow-down" size="32" class="text-white animate-bounce" />
+        <Icon @click="scrollTo('produtos')" name="lucide:arrow-down" size="32" class="text-white animate-bounce py-8" />
     </div>
 </template>
 <script setup>
