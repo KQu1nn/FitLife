@@ -9,14 +9,14 @@
     </div>
 
     <section id="produtos">
-        <div>
-            <div class="w-full flex flex-col gap-7 items-center justify-center px-10 py-17">
-                <h1 class="text-5xl font-bold">Nossos <span class="text-green-600">Produtos</span></h1>
-                <p class="w-7/12 text-center text-xl text-gray-500 ">Descubra nossa coleção exclusiva de roupas fitness
+        <div class="px-5">
+            <div class="w-full flex flex-col gap-7 items-center justify-center md:px-10 py-17">
+                <h1 class="text-center text-5xl font-bold">Nossos <span class="text-green-600">Produtos</span></h1>
+                <p class="w-10/12 md:w-7/12 text-center text-xl text-gray-500 ">Descubra nossa coleção exclusiva de roupas fitness
                     que combinam tecnologia, conforto e estilo para elevar
                     seus treinos</p>
             </div>
-            <div class="flex flex-row flex-wrap gap-8 justify-center pb-20">
+            <div class="w-full flex flex-row flex-wrap gap-8 justify-center pb-20">
                 <ProductCard :products="products" />
             </div>
         </div>
@@ -51,4 +51,7 @@ const products = ref([
     { id: 5, name: 'Conjunto Feminino Comfort', description: 'Conjunto completo com legging e top para máximo conforto', price: '119,90', url: product5 },
     { id: 6, name: 'Moletom Fitness Unissex', description: 'Moletom leve e confortável para aquecimento', price: '89,90', url: product6 },
 ])
+
+//const defaultUrl = ref(`https://wa.me/${number}?text=Ol%c3%a1%2c+vim+do+site+e+tenho+interesse+em+um+produto!`)
+
 </script>
