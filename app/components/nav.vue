@@ -15,8 +15,9 @@
     </button>
 
     <ul :class="[
-      'flex flex-col md:flex-row gap-3 md:gap-16 text-[17px] text-gray-800 font-sans font-medium absolute md:static bg-white md:bg-transparent w-full md:w-auto left-0 md:left-auto top-15 md:top-auto transition-all duration-300 overflow-hidden',
-      isOpen ? 'max-h-96 p-4' : 'max-h-0'
+      'flex flex-col md:flex-row gap-3 md:gap-16 text-[17px] text-gray-800 font-sans font-medium w-full md:w-auto transition-all duration-300 overflow-hidden',
+      'absolute top-15 left-0 bg-white md:static md:bg-transparent',
+      isOpen ? 'max-h-96 p-4' : 'max-h-0 md:max-h-full'     
     ]">
       <li @click="scrollTo('top')" class="cursor-pointer hover:text-green-500">Início</li>
       <li @click="scrollTo('produtos')" class="cursor-pointer hover:text-green-500">Produtos</li>
